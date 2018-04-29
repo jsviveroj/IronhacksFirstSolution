@@ -1,4 +1,21 @@
 body{
   background: url("https://i.imgur.com/fsLmAoP.jpg") ;
   height: 100vh;
+  font-family: 'Oswald', sans-serif;
+}
+
+.logo{
+  font-size: 40px;
+}
+
+#map {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 400px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.transBlack{
+  background-color: rgba(0, 0, 0, 0.7);
 }

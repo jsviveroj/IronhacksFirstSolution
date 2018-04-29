@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://i.imgur.com/1HgE9hr.png">
     <title>FindiiT</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -13,24 +13,57 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-              <a class="navbar-item" href="">
-                <div class="logo">
-                  FindiiT
+          <nav class="navbar navbar-light bg-light navbar-expand-lg">
+              <a class="navbar-brand logo" href="#">
+                <img  src="https://i.imgur.com/1HgE9hr.png" height="60" class="d-inline-block align-top" alt="">
+                FindiiT
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#">Features</a>
+                  <a class="nav-item nav-link" href="#">Pricing</a>
+                  <a class="nav-item nav-link disabled" href="#">Disabled</a>
                 </div>
-              </a>
-              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
             </div>
           </nav>
         </div>
       </div>
+      <div class="row justify-content-center">
+        <div class="col-11 transBlack">
+          <div id="map"></div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="card text-center">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmJxNIi8FRC6b0WG1MNLe7q373t97p948&callback=initMap"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-  <script type="text/javascript" src="js/index.js" ></script>
+  <script type="text/javascript" src="js/index.js"></script>
 </html>
